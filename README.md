@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Academic Risk Predictor - ML Model
 
 This project leverages machine learning to assess the risk of academic failure for students based on various personal, academic, and socio-economic factors. The goal is to provide educators and counselors with actionable insights to identify at-risk students and implement timely support strategies.
@@ -68,7 +67,3 @@ If you want to retrain the model with new or updated data:
   ```
 - The app is intended for educational and demonstration purposes. For production use, further validation and security measures are recommended.
 - For questions or contributions, please open an issue or submit a pull request.
-=======
-# Academic-Risk-Predictor-
-This machine learning project predicts student academic risk using factors like attendance, marks, health issues, and study habits through a Streamlit web interface.
->>>>>>> 7349cf54160d2fb35c24cab514429d28f21e371d
