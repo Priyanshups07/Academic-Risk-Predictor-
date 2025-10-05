@@ -1,0 +1,64 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Streamlit config and cache
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+*.out
+*.tmp
+
+# Data files (CSV, Excel, Parquet, etc.)
+*.csv
+*.tsv
+*.xls*
+*.parquet
+*.h5
+
+# Model files
+*.h5
+*.hdf5
+*.pb
+*.sav
+*.pt
+*.onnx
+
+# IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Security
+.env
+.env.*
+secrets.*
+
+# Miscellaneous
+*.bak
+*.swp
+*.lock
