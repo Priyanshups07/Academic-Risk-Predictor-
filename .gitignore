@@ -1,25 +1,37 @@
 # Python bytecode and cache
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.pkl
-*.joblib
+*$py.class
 
 # Virtual environments
 venv/
 env/
-.venv/
+ENV/
 
-# macOS system files
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows system files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+
+# Log files
+*.log
+
+# Pickle files (uncomment if you want to exclude them)
+# *.pkl
+
+# Student data files (uncomment if you want to exclude them)
+# student_success_data.csv
+# student_df.pkl
 
 # Streamlit config and cache
 .streamlit/
